@@ -31,12 +31,13 @@
 
 Если вы хотите запустить скрипт напрямую или собрать свой `.exe` файл, вам потребуется **Python 3.10+**.
 
-##🤝 Благодарности
-Автору оригинального zapret (bol-van).
-
-Автору популярной Windows-сборки zapret-discord-youtube (flowseal).
-
 **1. Клонирование репозитория:**
 ```bash
 git clone [https://github.com/BigBoss649/Zapret_Simple_Launcher.git](https://github.com/BigBoss649/Zapret_Simple_Launcher.git)
 cd Zapret_Simple_Launcher
+
+
+🤝 Благодарности
+Автору оригинального zapret (bol-van).
+
+Автору популярной Windows-сборки zapret-discord-youtube (flowseal).
