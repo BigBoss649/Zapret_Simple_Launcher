@@ -1,3 +1,5 @@
+
+<img width="2138" height="1984" alt="Запрет" src="https://github.com/user-attachments/assets/e3a5e71b-56d7-4009-902a-dca3ad9a0611" />
 # Zapret Simple Launcher 🚀
 
 Удобная и легкая графическая оболочка (GUI) для управления утилитой [Zapret](https://github.com/flowseal/zapret-discord-youtube) под Windows. Написана на Python (PyQt6).
@@ -33,3 +35,8 @@
 ```bash
 git clone [https://github.com/BigBoss649/Zapret_Simple_Launcher.git](https://github.com/BigBoss649/Zapret_Simple_Launcher.git)
 cd Zapret_Simple_Launcher
+
+🤝 Благодарности
+Автору оригинального zapret (bol-van).
+
+Автору популярной Windows-сборки zapret-discord-youtube (flowseal).
