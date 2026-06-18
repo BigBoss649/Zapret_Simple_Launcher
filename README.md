@@ -31,16 +31,28 @@
 
 Если вы хотите запустить скрипт напрямую или собрать свой `.exe` файл, вам потребуется **Python 3.10+**.
 
-## 🛠️ Сборка из исходников
-
-Если вы хотите запустить скрипт напрямую или собрать свой `.exe` файл, вам потребуется **Python 3.10+**.
-
 **1. Клонирование репозитория:**
 ```bash
-git clone https://github.com/BigBoss649/Zapret_Simple_Launcher.git
+git clone [https://github.com/BigBoss649/Zapret_Simple_Launcher.git](https://github.com/BigBoss649/Zapret_Simple_Launcher.git)
 cd Zapret_Simple_Launcher
+```
 
-##🤝 Благодарности
-Автору оригинального zapret (bol-van).
+**2. Установка зависимостей:**
+```bash
+pip install PyQt6 pyinstaller
+```
 
-Автору популярной Windows-сборки zapret-discord-youtube (flowseal).
+**3. Запуск без компиляции:**
+```bash
+python zapret_manager.py
+```
+
+**4. Сборка в .exe файл:**
+Выполните следующую команду в терминале, чтобы собрать независимый экзешник (он появится в папке `dist`):
+```bash
+python -m PyInstaller --noconsole --onefile --uac-admin --icon=logo.ico --add-data "logo.ico;." zapret_manager.py
+```
+
+## 🤝 Благодарности
+* Автору оригинального [zapret](https://github.com/bol-van/zapret) (bol-van).
+* Автору популярной Windows-сборки [zapret-discord-youtube](https://github.com/flowseal/zapret-discord-youtube) (flowseal).
